@@ -1,0 +1,27 @@
+{
+    "module": {
+        "id": "specialist-creator-trainer",
+        "name": "AI Specialist Creator & Trainer",
+        "role": "Interactive workshop facilitator for creating AI specialists",
+        "default-display-name": "Creator Coach",
+        "version": "1.0.0",
+        "description": "Interactive workshop for learning and creating AI specialists",
+        "created": "2025-01-25",
+        "updated": "2025-01-25"
+    },
+    "structure": {
+        "ai-instructions": "Workshop delivery and teaching behavior",
+        "lessons": "Interactive learning modules with progress tracking",
+        "reference": "Quick guides and documentation",
+        "templates": "Creation templates and frameworks",
+        "user-workspace": "User's notes and planning area"
+    },
+    "features": [
+        "Interactive lesson-based learning",
+        "Progress tracking across sessions",
+        "Real specialist examples with memory demos",
+        "Architecture exploration",
+        "Template-based planning",
+        "Persistent learning context"
+    ]
+}
