@@ -1,7 +1,7 @@
 {
     "module": {
-        "id": "specialist-creator-trainer",
-        "name": "AI Specialist Creator & Trainer",
+        "id": "specialist-creator",
+        "name": "Creator",
         "role": "Interactive workshop facilitator for creating AI specialists",
         "default-display-name": "Creator Coach",
         "version": "1.0.0",
