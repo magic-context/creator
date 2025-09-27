@@ -162,10 +162,16 @@ echo "# Preferences\nUser's fitness style, constraints, and preferences" > conte
 - Avoid abbreviations unless obvious
 
 **Organization Principles:**
+- **Make it self-explanatory**: Folder names should tell the AI what goes where
 - Separate user data from reference material
 - Keep related information together
-- Use subfolders for complex domains
 - Include README files to explain purpose
+
+**Design for AI Understanding:**
+- `user-preferences/` is clearer than `prefs/`
+- `current-projects/` is clearer than `work/`
+- `progress-tracking/` is clearer than `progress/`
+- The AI should understand your structure without extensive instructions
 
 **Example Domain Structures:**
 
@@ -190,6 +196,8 @@ content/
 ## Step 4: Add Templates and Core Content
 
 Create helpful templates and initial content for your specialist's domain:
+
+**Remember**: Design your folder structure to be self-explanatory. The AI should understand what goes where just from the folder names and structure.
 
 ```bash
 # Create templates directory
@@ -383,72 +391,60 @@ When meeting a new user:
 
 ### `/content/ai-instructions/core-instructions.md`
 
-Core behavioral programming (keep this focused and concise):
+**IMPORTANT**: Keep this extremely simple and focused. Your folder structure should be logical enough that the AI can understand how to work without extensive instructions. Only include truly core, essential information.
+
+**Minimalist Template (use only what you need):**
+
+```markdown
+# [Specialist Name] - Core Instructions
+
+## Identity
+You are a [role] helping with [specific domain/task].
+
+## Key Behaviors
+- [Essential behavior 1]
+- [Essential behavior 2]
+- [Essential behavior 3]
+
+## Memory Protocol
+Update files when user shares:
+- [What type of info goes where - be specific about folders]
+
+## Communication
+[Brief description of tone/style - 1-2 sentences max]
+
+---
+*Keep it simple - let the folder structure guide the AI*
+```
+
+**Advanced Template (only if domain requires specific workflows):**
 
 ```markdown
 # [Specialist Name] - Core Instructions
 
 ## Identity & Purpose
-
 You are a [role] specializing in [domain]. Your purpose is to [main objective].
 
-### Core Capabilities
-1. [Capability 1 - concise description]
-2. [Capability 2 - concise description]
-3. [Capability 3 - concise description]
-4. [Capability 4 - concise description]
+## Core Capabilities
+1. [Capability 1]
+2. [Capability 2]
+3. [Capability 3]
 
 ## Memory Management
+- **User info** → `[folder]/`
+- **Current work** → `[folder]/`
+- **Progress** → `[folder]/`
 
-### What to Track
-- **User Context**: Goals, preferences, working style, current projects
-- **Progress**: Achievements, milestones, what works/doesn't work
-- **Patterns**: Recurring themes, preferences, successful approaches
-
-### When to Update Memory
-- User explicitly states preferences or corrections
-- Significant progress or milestone achieved
-- New project or goal introduced
-- Important context revealed
-
-### Memory Locations
-- User profile and preferences → `[appropriate folder]/`
-- Current work → `[work folder]/`
-- Historical patterns → `[patterns folder]/`
+## Key Workflow
+**[Primary Process Name]**
+1. [Step 1]
+2. [Step 2]
+3. [Step 3]
 
 ## Communication Style
-
-- **Tone**: [Brief description - e.g., Professional but friendly]
-- **Approach**: [How you interact - e.g., Direct and action-oriented]
-- **Adaptation**: [How you adjust - e.g., Match user's technical level]
-
-## Domain Methodology
-
-### Primary Approach
-[One paragraph describing your main methodology]
-
-### Key Workflows
-
-**[Workflow 1 Name]**
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
-
-**[Workflow 2 Name]**
-1. [Step 1]
-2. [Step 2]
-3. [Step 3]
-
-## Response Guidelines
-
-1. Always check relevant folders for existing context
-2. Reference past interactions when relevant
-3. Apply domain expertise to user's specific situation
-4. Provide actionable, concrete recommendations
-5. Update memory based on new information
+[Brief tone/approach description]
 
 ---
-
 *Version: 1.0.0*
 ```
 
