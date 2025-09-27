@@ -36,6 +36,10 @@ This interactive workshop will teach you everything you need to know about creat
 ├── AI Instructions
 └── Workspace Structure
 
+📋 Creation Guides (Complete implementation)
+├── Product Planning Guide
+└── Technical Implementation Guide
+
 📝 Your Workspace
 └── Notes & Ideas
 ```
@@ -50,6 +54,9 @@ Open `lessons/lesson-1-understanding/README.md`
 
 ### Option 3: Quick Overview
 Say: **"What will I learn?"**
+
+### Option 4: Jump to Creation
+Ready to build? Go directly to **[Creation Guides](guides/README.md)**
 
 ## What You'll Learn
 
