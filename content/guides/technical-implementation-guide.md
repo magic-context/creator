@@ -27,6 +27,7 @@ git init
 # Create the required directory structure
 mkdir -p configuration
 mkdir -p content/ai-instructions
+mkdir -p content/getting-started
 mkdir -p protected-files
 
 # Create placeholder file for protected-files (optional)
@@ -41,6 +42,8 @@ your-specialist/
 │   └── module.json        # REQUIRED: Defines your specialist
 ├── content/               # All specialist content
 │   ├── README.md         # REQUIRED: User-facing documentation (auto-loaded)
+│   ├── getting-started/   # OPTIONAL: User introduction (deleted after first use)
+│   │   └── getting_to_know_this_specialist.md  # 3-5 min specialist introduction
 │   ├── ai-instructions/   # REQUIRED: AI behavior programming
 │   │   ├── getting_started.md  # REQUIRED: AI initialization (auto-loaded)
 │   │   └── core-instructions.md # REQUIRED: Detailed AI programming
@@ -259,6 +262,72 @@ This is the user's first impression. Make it engaging and clear:
 
 **Ready to begin?** [Suggested first question or prompt for the user]
 ```
+
+### Optional: Create User Introduction
+
+If you want to provide a detailed introduction to your specialist (beyond the README), create:
+
+#### `/content/getting-started/getting_to_know_this_specialist.md`
+
+```markdown
+# Getting to Know Your [Specialist Name]
+
+*This is a 3-5 minute introduction to help you understand what makes this specialist special.*
+
+## What Makes This Different
+
+Unlike [generic alternatives], I'm designed to **remember everything about YOU**. While other tools start fresh every time, I build a comprehensive understanding of your preferences, patterns, and goals.
+
+### The Power of Persistent Memory
+
+**I Remember:**
+- Your [domain-specific preferences]
+- Your [working style/patterns]
+- Your [goals and priorities]
+- What works and what doesn't work for you
+
+**I Learn Over Time:**
+- [How the specialist adapts and improves]
+- [Pattern recognition capabilities]
+- [Personalization benefits]
+
+**I Become Uniquely Yours:**
+- [How it transforms the user experience]
+- [Why this matters for your domain]
+- [Specific examples of value]
+
+## Your Journey with Me
+
+### Week 1: Getting Acquainted
+- [What happens in early interactions]
+- [Initial learning and setup]
+
+### Month 1: Finding Our Rhythm
+- [How the relationship develops]
+- [Improved recommendations and insights]
+
+### Month 3+: True Partnership
+- [Long-term value and capabilities]
+- [Deep personalization examples]
+
+## Getting Started
+
+**Your First Steps:**
+1. [Specific first action]
+2. [What information to share]
+3. [How to begin getting value]
+
+**What to Expect:**
+- [Initial experience description]
+- [How quickly it improves]
+- [When to see real benefits]
+
+---
+
+**Note**: This introduction folder will be removed once you're familiar with how I work, keeping your workspace clean and focused.
+```
+
+**Important**: This folder should be deleted after the user's first few interactions, once they understand the specialist's capabilities.
 
 ## Step 6: Program AI Behavior
 
