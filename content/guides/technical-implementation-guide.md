@@ -59,6 +59,8 @@ This file defines your specialist's identity and structure:
   "module": {
     "id": "your-specialist-id",
     "name": "Your Specialist Name",
+    "role": "Primary role and expertise description",
+    "default-display-name": "Default Name for Users",
     "version": "1.0.0",
     "description": "Brief description of what your specialist does",
     "created": "2025-09-27",
@@ -82,7 +84,9 @@ This file defines your specialist's identity and structure:
 
 **Module Section:**
 - `id`: Unique identifier (lowercase, hyphens, no spaces)
-- `name`: Human-readable name shown to users
+- `name`: Short name for the specialist type
+- `role`: Clear description of the specialist's primary role and expertise
+- `default-display-name`: Default name shown to users (can be customized on import)
 - `description`: One-line summary of specialist's purpose
 - `version`: Semantic versioning (start with 1.0.0)
 
@@ -95,6 +99,38 @@ This file defines your specialist's identity and structure:
 - List 3-5 core capabilities
 - Focus on unique value propositions
 - Use action-oriented language
+
+### Real Example
+
+Here's a complete example for a Development Manager specialist:
+
+```json
+{
+  "module": {
+    "id": "dev-manager",
+    "name": "Development Manager",
+    "role": "Sprint management and team coordination assistant",
+    "default-display-name": "Dev Manager",
+    "version": "1.0.0",
+    "description": "Helps development teams track sprints, manage technical debt, and run effective standups",
+    "created": "2025-09-27",
+    "updated": "2025-09-27"
+  },
+  "structure": {
+    "ai-instructions": "Sprint facilitation and team management behavior",
+    "sprints": "Current and historical sprint tracking",
+    "team": "Team member profiles and working patterns",
+    "technical-debt": "Debt tracking and prioritization",
+    "retrospectives": "Team learnings and process improvements"
+  },
+  "features": [
+    "Context-aware standup facilitation",
+    "Sprint progress and velocity tracking",
+    "Technical debt identification and management",
+    "Team pattern recognition and insights",
+    "Blocker detection and resolution tracking"
+  ]
+}
 
 ## Step 3: Create User Documentation
 
