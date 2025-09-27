@@ -4,6 +4,23 @@
 
 This guide helps you design an effective AI specialist by focusing on core product design concepts. Use this to plan what you want to build before jumping into technical implementation.
 
+## Learn from Existing Examples
+
+Before starting, explore these existing specialists on GitHub for inspiration:
+
+### Official Examples
+- **[Personal Effectiveness (Friday)](https://github.com/erikashby/Friday-Personal-Planning)** - Personal productivity and planning assistant
+- **[Game Collection Manager](https://github.com/magic-context/game-collection-manager)** - Collection tracking and wishlist management
+- **[D&D Character Development](https://github.com/magic-context/dnd-character-development)** - Character creation and campaign management
+- **[Specialist Creator Workshop](https://github.com/magic-context/creator)** - This workshop itself is a specialist!
+
+### What to Look For
+When reviewing these examples, pay attention to:
+- How they structure their `/configuration/module.json`
+- The tone and content of their `/content/README.md`
+- How they organize domain-specific folders
+- Their approach to AI instructions in `getting_started.md`
+
 ## Step 1: Define Your Specialist's Purpose
 
 ### Core Problem & Solution
@@ -16,6 +33,27 @@ This guide helps you design an effective AI specialist by focusing on core produ
 - ❌ Too broad: "Help with business"
 - ✅ Focused: "Track and prioritize technical debt across sprints"
 - ✅ Focused: "Manage personal fitness goals and workout planning"
+
+### Primary Role & Capabilities
+**Define your specialist's main role:**
+- What is the specialist's primary identity? (e.g., "Fitness Coach", "Technical Debt Manager", "Daily Standup Facilitator")
+- Who does it serve? (e.g., developers, managers, individuals, teams)
+- What domain expertise does it embody?
+
+**Core Capabilities (3-5 key abilities):**
+List the main things your specialist can do:
+- Capability 1: Specific action or service
+- Capability 2: Specific action or service
+- Capability 3: Specific action or service
+
+**Example - Development Manager:**
+- **Role**: Project management assistant for development teams
+- **Capabilities**:
+  - Track sprint progress and team velocity
+  - Identify and manage technical blockers
+  - Generate context-aware standup questions
+  - Provide team performance insights
+  - Maintain architectural decision records
 
 ### Unique Value of Persistent Memory
 **Why does memory matter for this use case?**
@@ -135,6 +173,8 @@ Example structures:
 Before moving to technical implementation, ensure you have:
 
 - [ ] **Clear purpose**: One-sentence description of what it does
+- [ ] **Primary role**: The specialist's identity and domain expertise
+- [ ] **Core capabilities**: 3-5 key abilities that define what it can do
 - [ ] **Target user**: Specific role/context it serves
 - [ ] **Memory requirements**: What it needs to remember and why
 - [ ] **Communication style**: How it should interact
@@ -146,6 +186,15 @@ Before moving to technical implementation, ensure you have:
 **Specialist: Personal Fitness Coach**
 
 **Purpose**: Help individuals plan, track, and optimize their fitness journey through personalized workout and nutrition guidance.
+
+**Role**: Personal fitness coach and wellness advisor
+
+**Core Capabilities**:
+- Create personalized workout plans based on goals and constraints
+- Track progress metrics and adjust programs accordingly
+- Provide nutrition guidance aligned with fitness goals
+- Identify patterns in motivation and adherence
+- Suggest recovery strategies and injury prevention
 
 **Target User**: Busy professionals wanting structured fitness routines
 
