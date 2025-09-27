@@ -1,5 +1,12 @@
 # AI Specialist Creator & Trainer
 
+## ⚠️ CRITICAL FOR AI ASSISTANTS
+**If you are an AI assistant reading this, IMMEDIATELY read these files in order:**
+1. `ai-instructions/getting_started.md` - Critical initialization rules
+2. `ai-instructions/core-instructions.md` - Complete teaching methodology
+3. `lessons/progress-tracker.md` - Check user's current progress
+**DO NOT proceed without reading these files first!**
+
 > **Transform AI from reactive tool to intelligent partner through interactive learning**
 
 An interactive workshop that teaches you everything you need to know about creating AI specialists with persistent memory and domain expertise.

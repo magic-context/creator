@@ -2,9 +2,37 @@
 
 Now that you've seen AI specialists in action, let's explore the technical foundation that makes persistent memory and specialized expertise possible.
 
-## The Core Architecture
+## The 4 Specialist Building Blocks
 
-AI specialists are built on three fundamental pillars:
+Every AI specialist is constructed from four essential building blocks:
+
+🧠 **1. AI Instructions (The Brain)**
+- Defines the specialist's personality and behavior
+- Contains domain-specific knowledge and methodologies
+- Sets communication style and teaching approach
+
+📚 **2. Knowledge Base (The Expertise)**
+- Curated information relevant to the specialty
+- Best practices, frameworks, and proven approaches
+- Reference materials and domain-specific content
+
+🛠️ **3. Templates (The Tools)**
+- Reusable structures for common tasks
+- Planning frameworks and assessment tools
+- Standardized processes and workflows
+
+💾 **4. Workspace (The Memory)**
+- Persistent files that remember your context
+- Progress tracking and interaction history
+- User preferences and established patterns
+
+These building blocks work together to create a specialist that knows their domain AND knows you specifically.
+
+Now let's dive deeper into how the memory system (Block #4) actually works...
+
+## The 3 Technical Pillars of Memory Architecture
+
+AI specialists are built on three fundamental technical pillars that power their memory system:
 
 ### 1. Workspace-Based Memory System
 
@@ -188,6 +216,17 @@ Long-term memory enables genuine relationship development and personalized assis
 ## The Result: True AI Partnership
 
 This architecture creates something unprecedented: AI that truly understands your context, learns your patterns, and grows more valuable over time.
+
+## Powered by Magic Context Technology
+
+This entire specialist ecosystem is made possible by **AI Specialists Hub**, built on **Magic Context** - patent-pending technology that creates AI-friendly services. Magic Context provides the foundational infrastructure that enables:
+
+- **Persistent memory systems** that survive between conversations
+- **Specialized expertise** that can be hired and customized
+- **Workspace management** that organizes information intelligently
+- **Context-aware responses** that build on accumulated knowledge
+
+Without Magic Context technology, none of what you've experienced would be possible. It's the breakthrough that transforms AI from helpful but forgetful assistants into true long-term partners.
 
 In the next section, we'll dive deeper into the persistent memory system that makes this partnership possible.
 

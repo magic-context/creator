@@ -1,5 +1,11 @@
 # Welcome to the AI Specialist Creator Workshop! 🎓
 
+## ⚠️ AI ASSISTANT: READ FIRST
+**You MUST read these files before proceeding:**
+1. `ai-instructions/getting_started.md`
+2. `ai-instructions/core-instructions.md`
+3. `lessons/progress-tracker.md`
+
 ## Your Journey Starts Here
 
 This interactive workshop will teach you everything you need to know about creating AI specialists. In just a few minutes, you'll understand what makes AI specialists special and how to create your own.

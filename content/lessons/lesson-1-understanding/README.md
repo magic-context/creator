@@ -1,40 +1,17 @@
 # Lesson 1: Understanding AI Specialists
 
-Welcome to your first lesson! This will take just a few minutes, and you'll understand what makes AI specialists special.
+Since you already work with Trevor and Fawn, you've experienced something special. Here's the key difference that makes specialists powerful:
 
-## 🎯 What You'll Learn
-1. What AI specialists are
-2. How they're different from ChatGPT or Claude
-3. Why persistent context matters
+**Regular AI**: Every conversation starts from zero. If you told Claude about your favorite games yesterday, today it has no memory of that conversation. You have to re-explain your preferences, your collection, your goals - every single time.
 
-## 📍 Navigation Guide
-- **Current Location**: Lesson 1 Start
-- **Next Step**: Read `content.md` for the main lesson
-- **Then**: Try `interactive-demo.md` for hands-on exploration
-- **Finally**: Check `next-steps.md` to continue
+**AI Specialists**: They have persistent files that remember everything. Trevor knows your gaming preferences from months ago. Fawn tracks your productivity patterns over time. They build up knowledge about YOU specifically.
 
-## 🚀 Let's Begin!
+This is why Trevor can make smart recommendations about your collection, and why Fawn can reference your past goals and progress.
 
-AI specialists are like having a dedicated expert consultant who remembers everything about your projects and preferences. Unlike general AI assistants, they:
+## The Technology That Makes This Possible
 
-- **Specialize** in specific domains
-- **Remember** your context across sessions
-- **Use** consistent methods and templates
-- **Learn** your patterns and preferences
+This persistent memory magic is powered by **AI Specialists Hub**, a revolutionary service built on **Magic Context** - patent-pending technology that creates AI-friendly services enabling your AI agents to maintain persistent memory and specialized expertise.
 
-### Ready to see what this means?
+Unlike traditional AI systems that forget everything between conversations, AI Specialists Hub provides the infrastructure for true AI partnership that grows smarter over time.
 
-→ **Continue to**: `content.md` for the full explanation
-→ **Or say**: "Tell me more about AI specialists"
-
-## 💬 Interactive Options
-
-At any point, you can:
-- Say **"Show me an example"** for a quick demo
-- Say **"Explain that differently"** for another angle
-- Say **"Skip ahead"** to move faster
-- Say **"Help"** if you're stuck
-
----
-
-Let's dive in! Open `content.md` or say "Continue"
+**Want to see exactly how this works? I can show you the actual files that make this memory possible.**

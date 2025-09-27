@@ -53,7 +53,10 @@
 ### Lesson 2 Flow:
 1. `README.md` (lesson overview)
 2. `overview.md` (example introduction)
-3. Example files (user chooses order)
+3. Example files (user chooses order):
+   - `example-daily-planner.md` - Personal scheduling specialist
+   - `example-dev-manager.md` - Development project tracking (9KB - PRIORITIZE THIS)
+   - `example-dietitian.md` - Personal health tracking (10KB)
 4. `try-it-yourself.md` (practice)
 5. `next-steps.md` (bridge to lesson 3)
 
