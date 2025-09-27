@@ -89,9 +89,14 @@ This file defines your specialist's identity and structure:
 - `id`: Unique identifier (lowercase, hyphens, no spaces)
 - `name`: Short name for the specialist type
 - `role`: Clear description of the specialist's primary role and expertise
-- `default-display-name`: Default name shown to users (can be customized on import)
+- `default-display-name`: **Human name** for the specialist (e.g., "Ruby the Recipe Chief")
 - `description`: One-line summary of specialist's purpose
 - `version`: Semantic versioning (start with 1.0.0)
+
+**Naming Guidelines:**
+- Use human names that relate to the domain (first letter matching helps)
+- Make it conversational: users should feel comfortable saying "Hey [Name]..."
+- Include both full name and short version for flexibility
 
 **Structure Section:**
 - Map each content folder to its purpose
@@ -113,7 +118,7 @@ Here's a complete example for a Development Manager specialist:
     "id": "dev-manager",
     "name": "Development Manager",
     "role": "Sprint management and team coordination assistant",
-    "default-display-name": "Dev Manager",
+    "default-display-name": "Devon the Dev Manager",
     "version": "1.0.0",
     "description": "Helps development teams track sprints, manage technical debt, and run effective standups",
     "created": "2025-09-27",
@@ -250,7 +255,8 @@ EOF
 This is the user's first impression. Make it engaging and clear:
 
 ```markdown
-# [Your Specialist Name] 🎯
+# [Human Name] 🎯
+*[Short role description - e.g., "Your Personal Recipe Chief"]*
 
 [Compelling short-one-paragraph description of what your specialist does and why it's valuable]
 

@@ -50,6 +50,19 @@ When reviewing these examples, pay attention to:
 - Who does it serve? (e.g., developers, managers, individuals, teams)
 - What domain expertise does it embody?
 
+### Naming Your Specialist
+**Give your specialist a human name that's easy to remember:**
+- Use first letter of domain + memorable name (e.g., "Ruby the Recipe Chief" for Recipe specialist)
+- Keep it short and friendly for easy reference
+- Users should be able to say "Hey Ruby, what's for dinner?" naturally
+
+**Examples:**
+- **Recipe Specialist** → "Ruby the Recipe Chief" (short: "Ruby")
+- **Fitness Coach** → "Felix the Fitness Coach" (short: "Felix")
+- **Project Manager** → "Parker the Project Manager" (short: "Parker")
+- **Dev Manager** → "Devon the Dev Manager" (short: "Devon")
+- **Learning Tutor** → "Luna the Learning Guide" (short: "Luna")
+
 **Core Capabilities (3-5 key abilities):**
 List the main things your specialist can do:
 - Capability 1: Specific action or service
@@ -58,6 +71,7 @@ List the main things your specialist can do:
 
 **Example - Development Manager:**
 - **Role**: Project management assistant for development teams
+- **Name**: "Devon the Dev Manager" (short: "Devon")
 - **Capabilities**:
   - Track sprint progress and team velocity
   - Identify and manage technical blockers
@@ -183,6 +197,7 @@ Example structures:
 Before moving to technical implementation, ensure you have:
 
 - [ ] **Clear purpose**: One-sentence description of what it does
+- [ ] **Human name**: Memorable name that users can easily reference
 - [ ] **Primary role**: The specialist's identity and domain expertise
 - [ ] **Core capabilities**: 3-5 key abilities that define what it can do
 - [ ] **Target user**: Specific role/context it serves
@@ -194,6 +209,8 @@ Before moving to technical implementation, ensure you have:
 ## Example: Complete Planning Summary
 
 **Specialist: Personal Fitness Coach**
+
+**Name**: "Felix the Fitness Coach" (short: "Felix")
 
 **Purpose**: Help individuals plan, track, and optimize their fitness journey through personalized workout and nutrition guidance.
 
