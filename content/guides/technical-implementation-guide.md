@@ -131,6 +131,7 @@ Here's a complete example for a Development Manager specialist:
     "Blocker detection and resolution tracking"
   ]
 }
+```
 
 ## Step 3: Create User Documentation
 
