@@ -4,6 +4,16 @@
 
 This guide helps you design an effective AI specialist by focusing on core product design concepts. Use this to plan what you want to build before jumping into technical implementation.
 
+## 📝 Save Your Planning Work
+
+**As you work through this guide, save your answers in your workspace:**
+
+1. **Create a new specialist folder**: Ask me to "create a new specialist planning folder for [your-specialist-name]"
+2. **Use the planning template**: I'll set up a structured template for capturing all your planning decisions
+3. **Work iteratively**: We can refine and update your plan as you work through each step
+
+This ensures your planning work is saved and can be referenced during technical implementation.
+
 ## Learn from Existing Examples
 
 Before starting, explore these existing specialists on GitHub for inspiration:
