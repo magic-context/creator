@@ -30,8 +30,9 @@ mkdir -p content/ai-instructions
 mkdir -p content/getting-started
 mkdir -p protected-files
 
-# Create placeholder file for protected-files (optional)
+# IMPORTANT: Git doesn't track empty folders, so add README files
 echo "# Protected Files\nPrivate configuration files go here" > protected-files/README.md
+echo "# Getting Started\nUser introduction materials (delete after first use)" > content/getting-started/README.md
 ```
 
 ### Understanding the Structure
@@ -152,7 +153,7 @@ mkdir -p content/nutrition
 mkdir -p content/progress
 mkdir -p content/preferences
 
-# Create README files to explain each folder's purpose
+# CRITICAL: Add README files so folders exist in Git
 echo "# Workouts\nPersonalized exercise routines and training plans" > content/workouts/README.md
 echo "# Nutrition\nMeal planning, dietary goals, and nutritional guidance" > content/nutrition/README.md
 echo "# Progress\nFitness metrics, achievements, and progress tracking" > content/progress/README.md
@@ -170,7 +171,8 @@ echo "# Preferences\nUser's fitness style, constraints, and preferences" > conte
 - **Make it self-explanatory**: Folder names should tell the AI what goes where
 - Separate user data from reference material
 - Keep related information together
-- Include README files to explain purpose
+- **Always include README files**: Git doesn't track empty folders - they'll disappear!
+- Add sample/template content to prevent folder loss
 
 **Design for AI Understanding:**
 - `user-preferences/` is clearer than `prefs/`
@@ -204,9 +206,27 @@ Create helpful templates and initial content for your specialist's domain:
 
 **Remember**: Design your folder structure to be self-explanatory. The AI should understand what goes where just from the folder names and structure.
 
+### ⚠️ Critical: Prevent Empty Folder Loss
+
+**Git doesn't track empty folders** - they'll disappear from your repository! Always add content:
+
+```bash
+# For main folders: Add README.md
+echo "# Folder Name\nPurpose description" > content/folder-name/README.md
+
+# For template folders: Add sample templates
+echo "# Sample Template\nExample content..." > content/templates/sample-template.md
+
+# For user data folders: Add placeholder files
+echo "# User Data\nPersonal information will be stored here" > content/user-data/README.md
+```
+
 ```bash
 # Create templates directory
 mkdir -p content/templates
+
+# Add README to explain templates folder
+echo "# Templates\nReusable templates and frameworks for this specialist" > content/templates/README.md
 
 # Add domain-specific templates
 # Example for a project management specialist:
