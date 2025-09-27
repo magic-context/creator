@@ -133,7 +133,106 @@ Here's a complete example for a Development Manager specialist:
 }
 ```
 
-## Step 3: Create User Documentation
+## Step 3: Create Domain Structure
+
+Based on your Product Planning Guide, create your domain-specific folders:
+
+```bash
+# Example for a fitness coach specialist
+mkdir -p content/workouts
+mkdir -p content/nutrition
+mkdir -p content/progress
+mkdir -p content/preferences
+
+# Create README files to explain each folder's purpose
+echo "# Workouts\nPersonalized exercise routines and training plans" > content/workouts/README.md
+echo "# Nutrition\nMeal planning, dietary goals, and nutritional guidance" > content/nutrition/README.md
+echo "# Progress\nFitness metrics, achievements, and progress tracking" > content/progress/README.md
+echo "# Preferences\nUser's fitness style, constraints, and preferences" > content/preferences/README.md
+```
+
+### Domain Folder Best Practices
+
+**Naming Conventions:**
+- Use clear, descriptive names
+- Lowercase with hyphens (kebab-case)
+- Avoid abbreviations unless obvious
+
+**Organization Principles:**
+- Separate user data from reference material
+- Keep related information together
+- Use subfolders for complex domains
+- Include README files to explain purpose
+
+**Example Domain Structures:**
+
+```
+# Project Management Specialist
+content/
+├── projects/          # Active project tracking
+├── team/             # Team member profiles
+├── sprints/          # Sprint planning and tracking
+├── retrospectives/   # Lessons and improvements
+└── templates/        # Reusable project templates
+
+# Learning Tutor Specialist
+content/
+├── subjects/         # Subject-specific content
+├── study-plans/      # Personalized learning paths
+├── progress/         # Learning metrics and achievements
+├── resources/        # Educational materials
+└── techniques/       # Study methods and strategies
+```
+
+## Step 4: Add Templates and Core Content
+
+Create helpful templates and initial content for your specialist's domain:
+
+```bash
+# Create templates directory
+mkdir -p content/templates
+
+# Add domain-specific templates
+# Example for a project management specialist:
+cat > content/templates/project-template.md << 'EOF'
+# Project: [Name]
+
+## Overview
+- **Goal**:
+- **Timeline**:
+- **Priority**:
+
+## Milestones
+- [ ] Milestone 1:
+- [ ] Milestone 2:
+- [ ] Milestone 3:
+
+## Resources
+-
+
+## Notes
+-
+EOF
+```
+
+### Core Content Guidelines
+
+**Templates:**
+- Create reusable structures for common tasks
+- Include placeholders for user-specific information
+- Keep templates simple and adaptable
+
+**Reference Materials:**
+- Add any domain-specific knowledge documents
+- Include best practices or methodologies
+- Create example workflows or processes
+
+**Initial Structure:**
+- Populate folders with at least README files
+- Add any essential reference documents
+- Create placeholder files for user data areas
+
+## Step 5: Create User Documentation
 
 ### `/content/README.md` (Auto-Loaded First)
 
@@ -161,9 +260,11 @@ This is the user's first impression. Make it engaging and clear:
 **Ready to begin?** [Suggested first question or prompt for the user]
 ```
 
-## Step 4: Program AI Behavior
+## Step 6: Program AI Behavior
 
-### `/content/ai-instructions/getting_started.md` (Auto-Loaded Second)
+Now that your structure and content are in place, create the AI instructions that can reference them.
+
+### `/content/ai-instructions/getting_started.md` (Auto-Loaded)
 
 Critical initialization instructions the AI reads first:
 
@@ -280,88 +381,6 @@ You are a [role] specializing in [domain]. Your purpose is to [main objective].
 ---
 
 *Version: 1.0.0*
-```
-
-## Step 5: Create Domain Structure
-
-Based on your Product Planning Guide, create your domain-specific folders:
-
-```bash
-# Example for a fitness coach specialist
-mkdir -p content/workouts
-mkdir -p content/nutrition
-mkdir -p content/progress
-mkdir -p content/preferences
-
-# Create README files to explain each folder's purpose
-echo "# Workouts\nPersonalized exercise routines and training plans" > content/workouts/README.md
-echo "# Nutrition\nMeal planning, dietary goals, and nutritional guidance" > content/nutrition/README.md
-echo "# Progress\nFitness metrics, achievements, and progress tracking" > content/progress/README.md
-echo "# Preferences\nUser's fitness style, constraints, and preferences" > content/preferences/README.md
-```
-
-### Domain Folder Best Practices
-
-**Naming Conventions:**
-- Use clear, descriptive names
-- Lowercase with hyphens (kebab-case)
-- Avoid abbreviations unless obvious
-
-**Organization Principles:**
-- Separate user data from reference material
-- Keep related information together
-- Use subfolders for complex domains
-- Include README files to explain purpose
-
-**Example Domain Structures:**
-
-```
-# Project Management Specialist
-content/
-├── projects/          # Active project tracking
-├── team/             # Team member profiles
-├── sprints/          # Sprint planning and tracking
-├── retrospectives/   # Lessons and improvements
-└── templates/        # Reusable project templates
-
-# Learning Tutor Specialist
-content/
-├── subjects/         # Subject-specific content
-├── study-plans/      # Personalized learning paths
-├── progress/         # Learning metrics and achievements
-├── resources/        # Educational materials
-└── techniques/       # Study methods and strategies
-```
-
-## Step 6: Add Templates and Resources
-
-Create helpful templates for your specialist's domain:
-
-```bash
-# Create templates directory
-mkdir -p content/templates
-
-# Add domain-specific templates
-# Example for a project management specialist:
-cat > content/templates/project-template.md << 'EOF'
-# Project: [Name]
-
-## Overview
-- **Goal**:
-- **Timeline**:
-- **Priority**:
-
-## Milestones
-- [ ] Milestone 1:
-- [ ] Milestone 2:
-- [ ] Milestone 3:
-
-## Resources
--
-
-## Notes
--
-EOF
 ```
 
 ## Step 7: Finalize Repository
