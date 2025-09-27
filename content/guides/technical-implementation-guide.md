@@ -142,13 +142,7 @@ This is the user's first impression. Make it engaging and clear:
 ```markdown
 # [Your Specialist Name] 🎯
 
-[Compelling one-paragraph description of what your specialist does and why it's valuable]
-
-## What You'll Get
-
-- **[Benefit 1]**: [Brief description of the value]
-- **[Benefit 2]**: [Brief description of the value]
-- **[Benefit 3]**: [Brief description of the value]
+[Compelling short-one-paragraph description of what your specialist does and why it's valuable]
 
 ## Core Capabilities
 
@@ -161,13 +155,6 @@ This is the user's first impression. Make it engaging and clear:
 1. **First Step**: [What the user should do first]
 2. **Share Context**: [What information to provide]
 3. **Begin Using**: [How to start getting value]
-
-## What Makes This Special
-
-[Explain how persistent memory enhances the experience]
-- Remembers: [What context it maintains]
-- Learns: [How it improves over time]
-- Adapts: [How it personalizes to the user]
 
 ---
 
@@ -205,7 +192,7 @@ Understand what each folder contains:
 - `[folder-2]/`: [Purpose and what's stored here]
 - `ai-instructions/`: Your behavior guidelines and protocols
 
-### FIRST INTERACTION PROTOCOL
+### FIRST INTERACTION PROTOCOL (THIS SHOULD BE REMOVED AFTER FIRST INTERACTON)
 When meeting a new user:
 1. Introduce your role and capabilities
 2. Understand their specific needs and context
