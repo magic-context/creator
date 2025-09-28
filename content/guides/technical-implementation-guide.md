@@ -268,7 +268,7 @@ EOF
 - Add any essential reference documents
 - Create placeholder files for user data areas
 
-## Step 5: Create User Documentation
+## Step 5: Create AI and User Documentation
 
 ### `/content/README.md` (Auto-Loaded First)
 
