@@ -44,7 +44,7 @@ When reviewing these examples, pay attention to:
 - ✅ Focused: "Track and prioritize technical debt across sprints"
 - ✅ Focused: "Manage personal fitness goals and workout planning"
 
-### Primary Role & Capabilities
+### Primary Role
 **Define your specialist's main role:**
 - What is the specialist's primary identity? (e.g., "Fitness Coach", "Technical Debt Manager", "Daily Standup Facilitator")
 - Who does it serve? (e.g., developers, managers, individuals, teams)
@@ -63,22 +63,6 @@ When reviewing these examples, pay attention to:
 - **Dev Manager** → "Devon the Dev Manager" (short: "Devon")
 - **Learning Tutor** → "Luna the Learning Guide" (short: "Luna")
 
-**Core Capabilities (3-5 key abilities):**
-List the main things your specialist can do:
-- Capability 1: Specific action or service
-- Capability 2: Specific action or service
-- Capability 3: Specific action or service
-
-**Example - Development Manager:**
-- **Role**: Project management assistant for development teams
-- **Name**: "Devon the Dev Manager" (short: "Devon")
-- **Capabilities**:
-  - Track sprint progress and team velocity
-  - Identify and manage technical blockers
-  - Generate context-aware standup questions
-  - Provide team performance insights
-  - Maintain architectural decision records
-
 ### Unique Value of Persistent Memory
 **Why does memory matter for this use case?**
 - What context should it remember about users?
@@ -90,7 +74,77 @@ List the main things your specialist can do:
 - Gets smarter: Learns what motivates you, adjusts based on results
 - Recognizes: When you're likely to skip workouts, what exercises you enjoy
 
-## Step 2: Design the User Experience
+## Step 2: Define Core Capabilities
+
+### CRITICAL: Don't Skip This Step!
+**Before proceeding, you MUST define your specialist's 3-5 core capabilities. This is essential for creating a focused, effective specialist.**
+
+### What Are Core Capabilities?
+Core capabilities are the specific, concrete actions your specialist can perform. They define what makes your specialist valuable and unique. Think of them as your specialist's "superpowers" that users will rely on.
+
+### Defining Your Core Capabilities (3-5 key abilities)
+**List the main things your specialist can do:**
+- Each capability should be a specific action or service
+- Be concrete and measurable, not abstract
+- Focus on what users will actually use daily
+- Ensure each capability leverages persistent memory
+
+### Examples of Well-Defined Core Capabilities
+
+**Development Manager Example:**
+- **Role**: Project management assistant for development teams
+- **Name**: "Devon the Dev Manager" (short: "Devon")
+- **Core Capabilities**:
+  1. **Track sprint progress and team velocity** - Monitor task completion, burndown rates, and team performance metrics across sprints
+  2. **Identify and manage technical blockers** - Recognize patterns in delays, track dependencies, and suggest mitigation strategies
+  3. **Generate context-aware standup questions** - Create relevant daily questions based on current sprint status and recent activities
+  4. **Provide team performance insights** - Analyze productivity patterns, identify improvement areas, and track growth over time
+  5. **Maintain architectural decision records** - Document technical decisions, rationale, and evolution of system architecture
+
+**Fitness Coach Example:**
+- **Role**: Personal fitness coach and wellness advisor
+- **Name**: "Felix the Fitness Coach" (short: "Felix")
+- **Core Capabilities**:
+  1. **Create personalized workout plans** - Design exercises based on goals, equipment, time constraints, and fitness level
+  2. **Track progress metrics and adjust programs** - Monitor performance improvements, adapt difficulty, and prevent plateaus
+  3. **Provide nutrition guidance** - Suggest meal plans aligned with fitness goals and dietary restrictions
+  4. **Identify motivation patterns** - Recognize what drives adherence and customize encouragement strategies
+  5. **Suggest recovery strategies** - Recommend rest days, stretching routines, and injury prevention techniques
+
+**Recipe Manager Example:**
+- **Role**: Personal recipe curator and meal planner
+- **Name**: "Ruby the Recipe Chief" (short: "Ruby")
+- **Core Capabilities**:
+  1. **Curate personalized recipe collection** - Save, organize, and adapt recipes based on taste preferences
+  2. **Generate weekly meal plans** - Create balanced menus considering schedule, preferences, and nutrition
+  3. **Create smart shopping lists** - Compile ingredients, account for pantry staples, organize by store layout
+  4. **Track cooking patterns** - Remember what worked, what didn't, and favorite modifications
+  5. **Suggest recipes based on available ingredients** - Recommend meals using what's on hand
+
+### Capability Definition Checklist
+For each capability, ensure you can answer:
+- [ ] **What specific action does it perform?**
+- [ ] **How does memory make this better than generic AI?**
+- [ ] **How often will users use this capability?**
+- [ ] **Can you measure if it's working well?**
+
+### Common Mistakes to Avoid
+- ❌ **Too vague**: "Help with productivity" → ✅ **Specific**: "Track time spent on tasks and identify productivity patterns"
+- ❌ **Too broad**: "Manage projects" → ✅ **Focused**: "Track sprint velocity and burndown rates"
+- ❌ **No memory benefit**: "Answer coding questions" → ✅ **Memory-enhanced**: "Suggest solutions based on your codebase patterns"
+
+### Your Core Capabilities
+Now define your specialist's 3-5 core capabilities:
+
+1. **Capability 1**: [Specific action and how it works]
+2. **Capability 2**: [Specific action and how it works]
+3. **Capability 3**: [Specific action and how it works]
+4. **Capability 4**: [Optional - Specific action and how it works]
+5. **Capability 5**: [Optional - Specific action and how it works]
+
+**CHECKPOINT**: Before moving to Step 3, confirm you have clearly defined 3-5 specific, measurable core capabilities that leverage persistent memory.
+
+## Step 3: Design the User Experience
 
 ### Communication Style
 **How should your specialist "talk"?**
@@ -110,7 +164,7 @@ List the main things your specialist can do:
 - How will it learn and adjust over time?
 - What should stay consistent vs change?
 
-## Step 3: Plan the Memory Architecture
+## Step 4: Plan the Memory Architecture
 
 ### What to Remember About Users
 **Core User Information:**
@@ -138,7 +192,7 @@ List the main things your specialist can do:
 - Interaction history and feedback
 - Customized approaches
 
-## Step 4: Content Architecture Planning
+## Step 5: Content Architecture Planning
 
 ### Auto-Loaded Files (Critical First Impression)
 **README.md** - What users see first:
@@ -176,7 +230,7 @@ Example structures:
 2. **Daily Usage**: What gets updated regularly?
 3. **Long-term Evolution**: How does understanding deepen?
 
-## Step 5: Success Planning
+## Step 6: Success Planning
 
 ### User Experience Goals
 **How will you know it's working well?**
@@ -192,7 +246,7 @@ Example structures:
 - Consistent application of domain expertise
 - Progressive improvement in assistance quality
 
-## Step 6: Implementation Readiness Checklist
+## Step 7: Implementation Readiness Checklist
 
 Before moving to technical implementation, ensure you have:
 
@@ -216,7 +270,7 @@ Before moving to technical implementation, ensure you have:
 
 **Role**: Personal fitness coach and wellness advisor
 
-**Core Capabilities**:
+**Core Capabilities (from Step 2)**:
 - Create personalized workout plans based on goals and constraints
 - Track progress metrics and adjust programs accordingly
 - Provide nutrition guidance aligned with fitness goals
